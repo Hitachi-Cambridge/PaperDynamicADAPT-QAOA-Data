@@ -1,0 +1,162 @@
+Maximum Cut Value: 9.5468571373547
+Initial Cut Approximation Ratio: 0.7498170201253065
+
+Creating mixer gradient operators...
+	Gradient operators created!
+
+Finding Best Mixer for layer 1...
+	The best mixer for layer 1 is Y3Z7 with a gradient of 0.9755942672620177
+Optimising layer 1...
+	Initial parameter guesses: 0.0, 0.01
+	Optimisation completed wih following outcome:
+		Number of iterations performed: 3
+		Number of expectation evaluations performed: 12
+		Success: True
+		Optimiser message: Optimization terminated successfully.
+	Optimised mixer unitary parameters: 0.786
+	Optimised Hamiltonian unitary parameters: 0.00237
+Current Cut Approximation Ratio: 0.8009236639447967
+
+Finding Best Mixer for layer 2...
+	The best mixer for layer 2 is Y1Z6 with a gradient of 0.8969668385031973
+Optimising layer 2...
+	Initial parameter guesses: 0.786, 0.0, 0.00237, 0.01
+	Optimisation completed wih following outcome:
+		Number of iterations performed: 5
+		Number of expectation evaluations performed: 30
+		Success: True
+		Optimiser message: Optimization terminated successfully.
+	Optimised mixer unitary parameters: 0.785, 0.781
+	Optimised Hamiltonian unitary parameters: -0.00121, -0.00115
+Current Cut Approximation Ratio: 0.8479179317202247
+
+Finding Best Mixer for layer 3...
+	The best mixer for layer 3 is Y4Z0 with a gradient of 0.7675791561553018
+Optimising layer 3...
+	Initial parameter guesses: 0.785, 0.781, 0.0, -0.00121, -0.00115, 0.01
+	Optimisation completed wih following outcome:
+		Number of iterations performed: 5
+		Number of expectation evaluations performed: 49
+		Success: True
+		Optimiser message: Optimization terminated successfully.
+	Optimised mixer unitary parameters: 0.785, 0.785, 0.785
+	Optimised Hamiltonian unitary parameters: 9.37e-06, -0.000278, 0.000815
+Current Cut Approximation Ratio: 0.8881233192425444
+
+Finding Best Mixer for layer 4...
+	The best mixer for layer 4 is Y5Z7 with a gradient of 0.6091346849896502
+Optimising layer 4...
+	Initial parameter guesses: 0.785, 0.785, 0.785, 0.0, 9.37e-06, -0.000278, 0.000815, 0.01
+	Optimisation completed wih following outcome:
+		Number of iterations performed: 6
+		Number of expectation evaluations performed: 72
+		Success: True
+		Optimiser message: Optimization terminated successfully.
+	Optimised mixer unitary parameters: 0.785, 0.785, 0.785, 0.785
+	Optimised Hamiltonian unitary parameters: -0.00024, 0.000219, -0.00165, 0.00348
+Current Cut Approximation Ratio: 0.9200278701138772
+
+Finding Best Mixer for layer 5...
+	The best mixer for layer 5 is Y2Z5 with a gradient of 0.23259948905195077
+Optimising layer 5...
+	Initial parameter guesses: 0.785, 0.785, 0.785, 0.785, 0.0, -0.00024, 0.000219, -0.00165, 0.00348, 0.01
+	Optimisation completed wih following outcome:
+		Number of iterations performed: 4
+		Number of expectation evaluations performed: 77
+		Success: True
+		Optimiser message: Optimization terminated successfully.
+	Optimised mixer unitary parameters: 0.785, 0.785, 0.785, 0.785, 0.786
+	Optimised Hamiltonian unitary parameters: 1.85e-06, -7.69e-05, -0.000537, 0.00121, 0.00938
+Current Cut Approximation Ratio: 0.9322100154353111
+
+Finding Best Mixer for layer 6...
+	The best mixer for layer 6 is Y1Y6 with a gradient of 0.03247928198220104
+Optimising layer 6...
+	Initial parameter guesses: 0.785, 0.785, 0.785, 0.785, 0.786, 0.0, 1.85e-06, -7.69e-05, -0.000537, 0.00121, 0.00938, 0.01
+	Optimisation completed wih following outcome:
+		Number of iterations performed: 20
+		Number of expectation evaluations performed: 364
+		Success: True
+		Optimiser message: Optimization terminated successfully.
+	Optimised mixer unitary parameters: 0.785, 0.786, 0.788, 0.787, 0.775, 0.786
+	Optimised Hamiltonian unitary parameters: -0.000402, -0.0378, 0.0951, -0.122, -0.2, 1.24
+Current Cut Approximation Ratio: 0.9916730528885361
+
+Finding Best Mixer for layer 7...
+	The best mixer for layer 7 is standard_x with a gradient of 0.06967431408720048
+Optimising layer 7...
+	Initial parameter guesses: 0.785, 0.786, 0.788, 0.787, 0.775, 0.786, 0.0, -0.000402, -0.0378, 0.0951, -0.122, -0.2, 1.24, 0.01
+	Optimisation completed wih following outcome:
+		Number of iterations performed: 27
+		Number of expectation evaluations performed: 465
+		Success: True
+		Optimiser message: Optimization terminated successfully.
+	Optimised mixer unitary parameters: 0.782, 0.79, 0.776, 0.787, 0.772, 0.786, 0.0073
+	Optimised Hamiltonian unitary parameters: -0.00141, -0.0408, 0.104, -0.135, -0.184, 1.23, 0.606
+Current Cut Approximation Ratio: 0.9917109683985461
+
+Finding Best Mixer for layer 8...
+	The best mixer for layer 8 is X4X6 with a gradient of 0.05474309068515791
+Optimising layer 8...
+	Initial parameter guesses: 0.782, 0.79, 0.776, 0.787, 0.772, 0.786, 0.0073, 0.0, -0.00141, -0.0408, 0.104, -0.135, -0.184, 1.23, 0.606, 0.01
+	Optimisation completed wih following outcome:
+		Number of iterations performed: 13
+		Number of expectation evaluations performed: 289
+		Success: True
+		Optimiser message: Optimization terminated successfully.
+	Optimised mixer unitary parameters: 0.782, 0.791, 0.775, 0.787, 0.771, 0.786, 0.00808, -0.0137
+	Optimised Hamiltonian unitary parameters: -0.00226, -0.0492, 0.112, -0.133, -0.159, 1.21, 0.542, -0.0572
+Current Cut Approximation Ratio: 0.9917539614295537
+
+Finding Best Mixer for layer 9...
+	The best mixer for layer 9 is X6 with a gradient of 0.048260022941992234
+Optimising layer 9...
+	Initial parameter guesses: 0.782, 0.791, 0.775, 0.787, 0.771, 0.786, 0.00808, -0.0137, 0.0, -0.00226, -0.0492, 0.112, -0.133, -0.159, 1.21, 0.542, -0.0572, 0.01
+	Optimisation completed wih following outcome:
+		Number of iterations performed: 12
+		Number of expectation evaluations performed: 342
+		Success: True
+		Optimiser message: Optimization terminated successfully.
+	Optimised mixer unitary parameters: 0.784, 0.797, 0.786, 0.787, 0.772, 0.786, 0.0028, -0.0178, 0.0274
+	Optimised Hamiltonian unitary parameters: -0.00402, -0.0632, 0.117, -0.111, -0.159, 1.2, 0.541, -0.0613, 0.00865
+Current Cut Approximation Ratio: 0.9918240004539101
+
+Finding Best Mixer for layer 10...
+	The best mixer for layer 10 is Y1Z2 with a gradient of 0.038294747112395666
+Optimising layer 10...
+	Initial parameter guesses: 0.784, 0.797, 0.786, 0.787, 0.772, 0.786, 0.0028, -0.0178, 0.0274, 0.0, -0.00402, -0.0632, 0.117, -0.111, -0.159, 1.2, 0.541, -0.0613, 0.00865, 0.01
+	Optimisation completed wih following outcome:
+		Number of iterations performed: 15
+		Number of expectation evaluations performed: 399
+		Success: True
+		Optimiser message: Optimization terminated successfully.
+	Optimised mixer unitary parameters: 0.784, 0.806, 0.787, 0.787, 0.771, 0.785, 0.00271, -0.0204, 0.0343, -0.0252
+	Optimised Hamiltonian unitary parameters: 0.0046, -0.0826, 0.125, -0.111, -0.121, 1.16, 0.547, -0.0578, 0.0228, 0.00134
+Current Cut Approximation Ratio: 0.991875462784586
+
+Finding Best Mixer for layer 11...
+	The best mixer for layer 11 is Y1Z0 with a gradient of 0.0455964170380255
+Optimising layer 11...
+	Initial parameter guesses: 0.784, 0.806, 0.787, 0.787, 0.771, 0.785, 0.00271, -0.0204, 0.0343, -0.0252, 0.0, 0.0046, -0.0826, 0.125, -0.111, -0.121, 1.16, 0.547, -0.0578, 0.0228, 0.00134, 0.01
+	Optimisation completed wih following outcome:
+		Number of iterations performed: 48
+		Number of expectation evaluations performed: 1242
+		Success: True
+		Optimiser message: Optimization terminated successfully.
+	Optimised mixer unitary parameters: 0.786, 0.937, 0.804, 0.787, 0.771, 0.779, -0.000798, -0.0308, 0.151, -0.0767, 0.0472
+	Optimised Hamiltonian unitary parameters: 0.00673, -0.102, 0.126, -0.0886, -0.0961, 1.13, 0.562, -0.117, 0.535, -0.35, 0.433
+Current Cut Approximation Ratio: 0.9920310387352161
+
+Finding Best Mixer for layer 12...
+	The best mixer for layer 12 is Y6Z4 with a gradient of 0.11869414642619344
+Optimising layer 12...
+	Initial parameter guesses: 0.786, 0.937, 0.804, 0.787, 0.771, 0.779, -0.000798, -0.0308, 0.151, -0.0767, 0.0472, 0.0, 0.00673, -0.102, 0.126, -0.0886, -0.0961, 1.13, 0.562, -0.117, 0.535, -0.35, 0.433, 0.01
+	Optimisation completed wih following outcome:
+		Number of iterations performed: 36
+		Number of expectation evaluations performed: 1000
+		Success: True
+		Optimiser message: Optimization terminated successfully.
+	Optimised mixer unitary parameters: 0.785, 1.51, 0.785, 0.786, 0.786, 0.885, 0.000421, 0.00022, 0.788, -0.716, 0.166, 0.164
+	Optimised Hamiltonian unitary parameters: 0.000426, -0.000564, 0.0031, -0.00339, 0.00234, 0.0322, 0.706, 0.034, 0.801, -0.311, 1.35, -1.17
+Current Cut Approximation Ratio: 0.9970854664987412
+
