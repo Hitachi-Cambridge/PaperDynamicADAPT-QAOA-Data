@@ -1,0 +1,230 @@
+Initial Cut Approximation Ratio: 0.6529694784848477
+
+Finding Best Mixer for layer 1...
+	The best mixer for layer 1 with no Hamiltonian unitary is Y5Z2 with a gradient of 0.992596950931832
+	<iMH_a> = 0.496298475465916
+	<MH_a^2> = 0
+	<iMH_a^3> = 0.6248684607886523
+	A maximum occurs when using no Hamiltonian unitary so we remove it for this layer!
+
+Optimising layer 1...
+	Initial parameter guesses: 0.0
+	Optimisation completed wih following outcome:
+		Number of iterations performed: 3
+		Number of expectation evaluations performed: 8
+		Success: True
+		Optimiser message: Optimization terminated successfully.
+	Optimised mixer unitary parameters: 0.787
+	Optimised Hamiltonian unitary parameters
+
+Current Cut Approximation Ratio: 0.7321474871236272
+
+Finding Best Mixer for layer 2...
+	The best mixer for layer 2 with no Hamiltonian unitary is Y1Z0 with a gradient of 0.965919188024944
+	<iMH_a> = 0.482959594012472
+	<MH_a^2> = 0
+	<iMH_a^3> = 0.33255597422680955
+	A maximum occurs when using no Hamiltonian unitary so we remove it for this layer!
+
+Optimising layer 2...
+	Initial parameter guesses: 0.787, 0.0
+	Optimisation completed wih following outcome:
+		Number of iterations performed: 3
+		Number of expectation evaluations performed: 12
+		Success: True
+		Optimiser message: Optimization terminated successfully.
+	Optimised mixer unitary parameters: 0.785, 0.786
+	Optimised Hamiltonian unitary parameters
+
+Current Cut Approximation Ratio: 0.8091979296071776
+
+Finding Best Mixer for layer 3...
+	The best mixer for layer 3 with no Hamiltonian unitary is Y3Z5 with a gradient of 0.6913490690539154
+	<iMH_a> = 0.3456745345269577
+	<MH_a^2> = 0
+	<iMH_a^3> = 0.053168455792499625
+	A maximum occurs when using no Hamiltonian unitary so we remove it for this layer!
+
+Optimising layer 3...
+	Initial parameter guesses: 0.785, 0.786, 0.0
+	Optimisation completed wih following outcome:
+		Number of iterations performed: 3
+		Number of expectation evaluations performed: 16
+		Success: True
+		Optimiser message: Optimization terminated successfully.
+	Optimised mixer unitary parameters: 0.785, 0.785, 0.785
+	Optimised Hamiltonian unitary parameters
+
+Current Cut Approximation Ratio: 0.8643461734722048
+
+Finding Best Mixer for layer 4...
+	The best mixer for layer 4 with no Hamiltonian unitary is Y4Z2 with a gradient of 0.6395265200665944
+	<iMH_a> = 0.3197632600332972
+	<MH_a^2> = 0
+	<iMH_a^3> = 0.05319166959687799
+	A maximum occurs when using no Hamiltonian unitary so we remove it for this layer!
+
+Optimising layer 4...
+	Initial parameter guesses: 0.785, 0.785, 0.785, 0.0
+	Optimisation completed wih following outcome:
+		Number of iterations performed: 4
+		Number of expectation evaluations performed: 25
+		Success: True
+		Optimiser message: Optimization terminated successfully.
+	Optimised mixer unitary parameters: 0.785, 0.785, 0.785, 0.785
+	Optimised Hamiltonian unitary parameters
+
+Current Cut Approximation Ratio: 0.9153604720641578
+
+Finding Best Mixer for layer 5...
+	The best mixer for layer 5 with no Hamiltonian unitary is Y4Z5 with a gradient of 0.0004953312418358832
+	<iMH_a> = -0.0002476656209179416
+	<MH_a^2> = 0
+	<iMH_a^3> = -4.119843327282056e-05
+	A maximum occurs when using no Hamiltonian unitary so we remove it for this layer!
+
+Optimising layer 5...
+	Initial parameter guesses: 0.785, 0.785, 0.785, 0.785, 0.0
+	Optimisation completed wih following outcome:
+		Number of iterations performed: 2
+		Number of expectation evaluations performed: 30
+		Success: True
+		Optimiser message: Optimization terminated successfully.
+	Optimised mixer unitary parameters: 0.785, 0.785, 0.785, 0.785, -0.000194
+	Optimised Hamiltonian unitary parameters
+
+Current Cut Approximation Ratio: 0.915360490486344
+
+Finding Best Mixer for layer 6...
+	The best mixer for layer 6 with no Hamiltonian unitary is Y3Z5 with a gradient of 4.2758952195741165e-07
+	<iMH_a> = 2.1379476097870583e-07
+	<MH_a^2> = 0
+	<iMH_a^3> = 4.360779789549429e-08
+	It is unclear whether a maximum occurs when using no Hamiltonian unitary so we will add it to the layer!
+
+Optimising layer 6...
+	Initial parameter guesses: 0.785, 0.785, 0.785, 0.785, -0.000194, 0.0, 0.0
+	Optimisation completed wih following outcome:
+		Number of iterations performed: 3
+		Number of expectation evaluations performed: 48
+		Success: False
+		Optimiser message: Desired error not necessarily achieved due to precision loss.
+	Optimised mixer unitary parameters: 0.785, 0.785, 0.785, 0.785, -0.000194, 1.2e-07
+	Optimised Hamiltonian unitary parameters: 2.56e-08
+
+Current Cut Approximation Ratio: 0.9153604904863525
+
+Finding Best Mixer for layer 7...
+	The best mixer for layer 7 with no Hamiltonian unitary is Y0Y1 with a gradient of 2.8815357099149354e-08
+	<iMH_a> = 1.4407678549574677e-08
+	<MH_a^2> = 0.2814618699539459
+	<iMH_a^3> = 0
+	It is unclear whether a maximum occurs when using no Hamiltonian unitary so we will add it to the layer!
+
+Optimising layer 7...
+	Initial parameter guesses: 0.785, 0.785, 0.785, 0.785, -0.000194, 1.2e-07, 0.0, 2.56e-08, 0.0
+	Optimisation completed wih following outcome:
+		Number of iterations performed: 1
+		Number of expectation evaluations performed: 20
+		Success: False
+		Optimiser message: Desired error not necessarily achieved due to precision loss.
+	Optimised mixer unitary parameters: 0.785, 0.785, 0.785, 0.785, -0.000194, 7.58e-08, 2.98e-08
+	Optimised Hamiltonian unitary parameters: 2.56e-08, 0.0
+
+Current Cut Approximation Ratio: 0.9153604904863525
+
+Finding Best Mixer for layer 8...
+	The best mixer for layer 8 with no Hamiltonian unitary is Y4Z5 with a gradient of 3.306785068935934e-08
+	<iMH_a> = 1.653392534467967e-08
+	<MH_a^2> = 0
+	<iMH_a^3> = 0
+	It is unclear whether a maximum occurs when using no Hamiltonian unitary so we will add it to the layer!
+
+Optimising layer 8...
+	Initial parameter guesses: 0.785, 0.785, 0.785, 0.785, -0.000194, 7.58e-08, 2.98e-08, 0.0, 2.56e-08, 0.0, 0.0
+	Optimisation completed wih following outcome:
+		Number of iterations performed: 4
+		Number of expectation evaluations performed: 348
+		Success: False
+		Optimiser message: Desired error not necessarily achieved due to precision loss.
+	Optimised mixer unitary parameters: 0.499, 0.897, 0.758, 0.507, -0.122, -0.0273, 0.676, -0.24
+	Optimised Hamiltonian unitary parameters: 0.215, 0.442, 0.13
+
+Current Cut Approximation Ratio: 0.9440490398065322
+
+Finding Best Mixer for layer 9...
+	The best mixer for layer 9 with no Hamiltonian unitary is X2 with a gradient of 0.42484934122518325
+	<iMH_a> = 0.21242467061259163
+	<MH_a^2> = 0.09506509261762862
+	<iMH_a^3> = 0.19916507373460296
+	It is unclear whether a maximum occurs when using no Hamiltonian unitary so we will add it to the layer!
+
+Optimising layer 9...
+	Initial parameter guesses: 0.499, 0.897, 0.758, 0.507, -0.122, -0.0273, 0.676, -0.24, 0.0, 0.215, 0.442, 0.13, 0.0
+	Optimisation completed wih following outcome:
+		Number of iterations performed: 7
+		Number of expectation evaluations performed: 210
+		Success: True
+		Optimiser message: Optimization terminated successfully.
+	Optimised mixer unitary parameters: 0.786, 0.785, 0.785, 0.604, -0.182, -9.66e-05, 0.786, 0.000379, 6.43e-05
+	Optimised Hamiltonian unitary parameters: 0.626, 0.853, 0.101, 0.00114
+
+Current Cut Approximation Ratio: 0.9999999302963495
+
+Finding Best Mixer for layer 10...
+	The best mixer for layer 10 with no Hamiltonian unitary is Y4Z2 with a gradient of 0.0005729867528640488
+	<iMH_a> = 0.0002864933764320244
+	<MH_a^2> = 5.302861404099355e-05
+	<iMH_a^3> = 6.219570947876317e-05
+	It is unclear whether a maximum occurs when using no Hamiltonian unitary so we will add it to the layer!
+
+Optimising layer 10...
+	Initial parameter guesses: 0.786, 0.785, 0.785, 0.604, -0.182, -9.66e-05, 0.786, 0.000379, 6.43e-05, 0.0, 0.626, 0.853, 0.101, 0.00114, 0.0
+	Optimisation completed wih following outcome:
+		Number of iterations performed: 7
+		Number of expectation evaluations performed: 208
+		Success: True
+		Optimiser message: Optimization terminated successfully.
+	Optimised mixer unitary parameters: 0.785, 0.785, 0.785, 0.604, -0.182, 4e-06, 0.785, 0.00019, 5.07e-07, 0.00019
+	Optimised Hamiltonian unitary parameters: 0.627, 0.854, 0.101, 0.00114, -1.09e-07
+
+Current Cut Approximation Ratio: 0.999999999998658
+
+Finding Best Mixer for layer 11...
+	The best mixer for layer 11 with no Hamiltonian unitary is Y3Z1 with a gradient of 3.1781644429996716e-06
+	<iMH_a> = -1.5890822214998358e-06
+	<MH_a^2> = -6.406779447571283e-07
+	<iMH_a^3> = -2.8396974199105193e-07
+	It is unclear whether a maximum occurs when using no Hamiltonian unitary so we will add it to the layer!
+
+Optimising layer 11...
+	Initial parameter guesses: 0.785, 0.785, 0.785, 0.604, -0.182, 4e-06, 0.785, 0.00019, 5.07e-07, 0.00019, 0.0, 0.627, 0.854, 0.101, 0.00114, -1.09e-07, 0.0
+	Optimisation completed wih following outcome:
+		Number of iterations performed: 7
+		Number of expectation evaluations performed: 1155
+		Success: False
+		Optimiser message: Desired error not necessarily achieved due to precision loss.
+	Optimised mixer unitary parameters: 0.785, 0.785, 0.785, 0.604, -0.182, 4.08e-06, 0.785, 0.00019, -2.36e-09, 0.00019, -2.23e-06
+	Optimised Hamiltonian unitary parameters: 0.627, 0.854, 0.101, 0.00114, -1.09e-07, -1.97e-09
+
+Current Cut Approximation Ratio: 0.9999999999999929
+
+Finding Best Mixer for layer 12...
+	The best mixer for layer 12 with no Hamiltonian unitary is X4 with a gradient of 1.0509370925340336e-07
+	<iMH_a> = 5.254685462670168e-08
+	<MH_a^2> = 0
+	<iMH_a^3> = 1.1407677051337176e-08
+	It is unclear whether a maximum occurs when using no Hamiltonian unitary so we will add it to the layer!
+
+Optimising layer 12...
+	Initial parameter guesses: 0.785, 0.785, 0.785, 0.604, -0.182, 4.08e-06, 0.785, 0.00019, -2.36e-09, 0.00019, -2.23e-06, 0.0, 0.627, 0.854, 0.101, 0.00114, -1.09e-07, -1.97e-09, 0.0
+	Optimisation completed wih following outcome:
+		Number of iterations performed: 0
+		Number of expectation evaluations performed: 1592
+		Success: False
+		Optimiser message: Desired error not necessarily achieved due to precision loss.
+	Optimised mixer unitary parameters: 0.785, 0.785, 0.785, 0.604, -0.182, 4.08e-06, 0.785, 0.00019, -2.36e-09, 0.00019, -2.23e-06, 0.0
+	Optimised Hamiltonian unitary parameters: 0.627, 0.854, 0.101, 0.00114, -1.09e-07, -1.97e-09, 0.0
+
+Current Cut Approximation Ratio: 0.9999999999999929
+
