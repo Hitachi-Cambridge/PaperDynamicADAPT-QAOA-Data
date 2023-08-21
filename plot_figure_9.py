@@ -126,7 +126,6 @@ ax.xaxis.set_major_locator(MaxNLocator(integer=True))
 ax.tick_params(axis='both', which='major', labelsize=fontsize_axis-2)
 ax.legend()
 ax.set_xscale('log')
-# ax_noise.set_title('Data for Gate-Error Probability ' + str(gate_error))
 ax.set_ylabel(r'$\alpha$', fontsize=fontsize_axis)
 ax.set_xlabel('Gate-error probability, $p_\mathrm{gate}$', fontsize=fontsize_axis)
 ax.legend(loc='upper right', fontsize=15)
@@ -134,11 +133,7 @@ ax.legend(loc='upper right', fontsize=15)
 for index, no_nodes in enumerate([6]):
 
     img = plt.imread('./figures/' + str(no_nodes) + '_nodes.png')
-    #The OffsetBox is a simple container artist.
-    #The child artists are meant to be drawn at a relative position to its #parent.
     box = OffsetImage(img, zoom = 0.3)
-    #Annotation box for solar pv logo
-    #Container for the imagebox referring to a specific position *xy*.
     annotation_box = AnnotationBbox(box, (0.15,0.2), frameon = False, xycoords='axes fraction')
     ax.add_artist(annotation_box)
 
