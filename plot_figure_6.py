@@ -47,7 +47,7 @@ coord_1 = 0.045
 coord_5 = 0.955
 coords = [0.05 + i * (0.955-0.05)/4 for i in range(5)]
 
-ax.hlines([1-0.9992], 5, 11, linestyles=['dashdot'], colors=['#77cca4'], linewidth=[3.5], label='Experimental Gate-Error')
+ax.hlines([5/4*(1-0.9992)], 5, 11, linestyles=['dashdot'], colors=['#77cca4'], linewidth=[3.5], label='Experimental Gate-Error')
 for algo in algo_types:
     if 'dynamic' in algo:
         label = 'Dynamic ADAPT-QAOA'
